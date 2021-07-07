@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: "So, what is a programming?"
-date: 2021-04-02
+date: 2021-07-07
 img: posts/20210402/post7-header.webp
 tags: [neural networks, machine learning, artificial intelligence]
 category: theory
@@ -18,7 +18,7 @@ The omnipresence of technology nowadays has made it commonplace to read news abo
 - [Pentagon seeks commercial solutions to get its data ready for AI](https://www.c4isrnet.com/artificial-intelligence/2021/04/02/pentagon-seeks-commercial-solutions-to-get-its-data-ready-for-ai/)
   
 
-Topics from business, manufacturing, supply chain, medicine and biotech and even defense are covered in those news headlines, definitively the advancements on the fields of artificial intelligence, in particular machine learning and deep neural networks have permeated into our daily lives and are here to stay. But, do the general population know what are we talking about when we say "an AI"?  I assume most people correctly imagine a computer algorithm or perhaps the more adventurous minds think of a physical machine, an advanced computer entity or even a robot, getting smarter by itself with every use-case we throw at it. And most people will be right, when "an AI" is mentioned it is indeed an algorithm run by a computer, and there is where the boundary of their knowledge lies. 
+# Topics from business, manufacturing, supply chain, medicine and biotech and even defense are covered in those news headlines, definitively the advancements on the fields of artificial intelligence, in particular machine learning and deep neural networks have permeated into our daily lives and are here to stay. But, do the general population know what are we talking about when we say "an AI"?  I assume most people correctly imagine a computer algorithm or perhaps the more adventurous minds think of a physical machine, an advanced computer entity or even a robot, getting smarter by itself with every use-case we throw at it. And most people will be right, when "an AI" is mentioned it is indeed an algorithm run by a computer, and there is where the boundary of their knowledge lies. 
 
 They say that the best way to learn something is to try to explain it, so in a personal exercise I will try to do an ELI5 (**E**xplain it **L**ike **I** am **5**) version of what is a neural network.
 

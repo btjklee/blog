@@ -3,6 +3,32 @@
   
     
     <url>
+      <loc>https://the-mvm.github.io/back-to-basics.txt</loc>
+      
+        <lastmod>2021-07-07T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority></url>
+    
+  
+    
+    <url>
+      <loc>https://the-mvm.github.io/back-to-basics.html</loc>
+      
+        <lastmod>2021-07-07T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority></url>
+    
+  
+    
+    <url>
       <loc>https://the-mvm.github.io/AI-and-intellectual-property.html</loc>
       
         <lastmod>2021-04-20T00:00:00-04:00</lastmod>
@@ -110,7 +136,7 @@
     <url>
       <loc>https://the-mvm.github.io/404.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -125,7 +151,7 @@
     <url>
       <loc>https://the-mvm.github.io/about.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -140,7 +166,7 @@
     <url>
       <loc>https://the-mvm.github.io/all-posts.json</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -155,7 +181,7 @@
     <url>
       <loc>https://the-mvm.github.io/archive.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -170,7 +196,7 @@
     <url>
       <loc>https://the-mvm.github.io/</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -185,7 +211,7 @@
     <url>
       <loc>https://the-mvm.github.io/ipfs-404.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -200,7 +226,7 @@
     <url>
       <loc>https://the-mvm.github.io/posts-by-tag.json</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -215,7 +241,7 @@
     <url>
       <loc>https://the-mvm.github.io/search.json</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -232,7 +258,7 @@
     <url>
       <loc>https://the-mvm.github.io/tag.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -247,7 +273,7 @@
     <url>
       <loc>https://the-mvm.github.io/tags.html</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -262,7 +288,7 @@
     <url>
       <loc>https://the-mvm.github.io/feed.xml</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -277,7 +303,7 @@
     <url>
       <loc>https://the-mvm.github.io/page2/</loc>
       
-        <lastmod>2021-07-07T15:19:41-04:00</lastmod>
+        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
