@@ -6,6 +6,8 @@
   "tag" : "artificial intelligence",
   "posts" : [
       
+      "./Github-commands-study.html",
+      
       "./back-to-basics.txt",
       
       "./back-to-basics.html",
@@ -92,6 +94,8 @@
   "tag" : "machine learning",
   "posts" : [
       
+      "./Github-commands-study.html",
+      
       "./back-to-basics.txt",
       
       "./back-to-basics.html",
@@ -115,6 +119,8 @@
   {
   "tag" : "neural networks",
   "posts" : [
+      
+      "./Github-commands-study.html",
       
       "./back-to-basics.txt",
       

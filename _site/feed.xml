@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://the-mvm.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://the-mvm.github.io/" rel="alternate" type="text/html" /><updated>2021-07-07T15:54:53-04:00</updated><id>https://the-mvm.github.io/feed.xml</id><title type="html">The Minimum Viable Model</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Armando Maynez</name></author><entry><title type="html">So, what is a programming?</title><link href="https://the-mvm.github.io/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-07-07T00:00:00-04:00</published><updated>2021-07-07T00:00:00-04:00</updated><id>https://the-mvm.github.io/back-to-basics</id><content type="html" xml:base="https://the-mvm.github.io/back-to-basics.html">&lt;p&gt;The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://btjklee.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://btjklee.github.io/" rel="alternate" type="text/html" /><updated>2021-07-09T18:07:09-04:00</updated><id>https://btjklee.github.io/feed.xml</id><title type="html">Ju’s lively blog</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Ju Lee</name></author><entry><title type="html">Github commands study</title><link href="https://btjklee.github.io/Github-commands-study.html" rel="alternate" type="text/html" title="Github commands study" /><published>2021-07-09T13:24:00-04:00</published><updated>2021-07-09T13:24:00-04:00</updated><id>https://btjklee.github.io/Github-commands-study</id><content type="html" xml:base="https://btjklee.github.io/Github-commands-study.html">&lt;h2 id=&quot;using-github-on-command-prompt&quot;&gt;Using Github on command prompt.&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Github is Repository storage.&lt;br /&gt;
+Repository is a remote directory that can be shared by others.&lt;br /&gt;
+You can push or pull repository files from the github storage.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;git-push&quot;&gt;Git push&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To push current directory’s files onto the github repository, one has to add and commit beforehand.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Git add
+Git add specifies which files to upload.
+-Git commit
+git commit allows the user to add comments to the push.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Usage
+
+git add &amp;lt;directory-path&amp;gt;
+git commit -m &quot;&amp;lt;message&amp;gt;&quot;
+git push
+
+Example
+
+gid add .
+gid commit -m &quot;Hello World&quot;
+git push
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;git-clone&quot;&gt;Git clone&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To clone the github repository to a local directory, one has to clone the repository’s https address.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Usage
+
+git clone &amp;lt;https-address&amp;gt;
+
+Example
+
+git clone https://github.com/btjklee/blog.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;git-pull&quot;&gt;Git pull&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unlike Git Push, in which the github repository is updated FROM my directory’s changes, Git Pull updates my local directory using the repository’s changes.&lt;/p&gt;
+
+&lt;p&gt;However, git pull is useful when multiple people are updating one repository, so I will not write down how to use it just yet.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;if-i-want-to-make-a-new-repository&quot;&gt;If I want to make a new repository?&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to github.com and create new repository&lt;/li&gt;
+  &lt;li&gt;Get the https address from the new repository&lt;/li&gt;
+  &lt;li&gt;Go to CMD and git clone the https address to the desired local directory&lt;/li&gt;
+  &lt;li&gt;Once the local directory and the github repository are connected, start coding.&lt;/li&gt;
+  &lt;li&gt;After changes have been made, go to the command prompt,
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add.
+git commit -m &quot;example&quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Ju Lee</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">Using Github on command prompt.</summary></entry><entry><title type="html">So, what is a programming?</title><link href="https://btjklee.github.io/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-07-07T00:00:00-04:00</published><updated>2021-07-07T00:00:00-04:00</updated><id>https://btjklee.github.io/back-to-basics</id><content type="html" xml:base="https://btjklee.github.io/back-to-basics.html">&lt;p&gt;The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew&quot;&gt;This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/&quot;&gt;How A.I.-powered companies dodged the worst damage from COVID&lt;/a&gt;&lt;/li&gt;
@@ -103,7 +180,7 @@
 
 &lt;p&gt;Of course Amazon’s Alexa neural networks have undergone quite a lot of training to get to the level where they are, the beauty is that once trained, to perform their magic they just need a few mathematical operations.&lt;/p&gt;
 
-&lt;p&gt;As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get: This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech. How A.I.-powered companies dodged the worst damage from COVID AI technology detects ‘ticking time bomb’ arteries AI in Drug Discovery Starts to Live Up to the Hype Pentagon seeks commercial solutions to get its data ready for AI</summary></entry><entry><title type="html">So, what is a programming?</title><link href="https://the-mvm.github.io/back-to-basics.txt" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-07-07T00:00:00-04:00</published><updated>2021-07-07T00:00:00-04:00</updated><id>https://the-mvm.github.io/back-to-basics</id><content type="html" xml:base="https://the-mvm.github.io/back-to-basics.txt">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get:
+&lt;p&gt;As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get: This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech. How A.I.-powered companies dodged the worst damage from COVID AI technology detects ‘ticking time bomb’ arteries AI in Drug Discovery Starts to Live Up to the Hype Pentagon seeks commercial solutions to get its data ready for AI</summary></entry><entry><title type="html">So, what is a programming?</title><link href="https://btjklee.github.io/back-to-basics.txt" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-07-07T00:00:00-04:00</published><updated>2021-07-07T00:00:00-04:00</updated><id>https://btjklee.github.io/back-to-basics</id><content type="html" xml:base="https://btjklee.github.io/back-to-basics.txt">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get:
 - [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew)
 - [How A.I.-powered companies dodged the worst damage from COVID](https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/)
 - [AI technology detects ‘ticking time bomb’ arteries](https://www.mobihealthnews.com/news/emea/ai-technology-detects-ticking-time-bomb-arteries)
@@ -205,7 +282,7 @@ Once Alexa understood what we meant, it then proceeds to execute the action of t
 
 Of course Amazon's Alexa neural networks have undergone quite a lot of training to get to the level where they are, the beauty is that once trained, to perform their magic they just need a few mathematical operations.
 
-As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get: - [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew) - [How A.I.-powered companies dodged the worst damage from COVID](https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/) - [AI technology detects ‘ticking time bomb’ arteries](https://www.mobihealthnews.com/news/emea/ai-technology-detects-ticking-time-bomb-arteries) - [AI in Drug Discovery Starts to Live Up to the Hype](https://www.genengnews.com/insights/ai-in-drug-discovery-starts-to-live-up-to-the-hype/) - [Pentagon seeks commercial solutions to get its data ready for AI](https://www.c4isrnet.com/artificial-intelligence/2021/04/02/pentagon-seeks-commercial-solutions-to-get-its-data-ready-for-ai/)</summary></entry><entry><title type="html">Who owns the copyright for an AI generated creative work?</title><link href="https://the-mvm.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="Who owns the copyright for an AI generated creative work?" /><published>2021-04-20T00:00:00-04:00</published><updated>2021-04-20T00:00:00-04:00</updated><id>https://the-mvm.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://the-mvm.github.io/AI-and-intellectual-property.html">&lt;p&gt;Recently I was &lt;a href=&quot;https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/&quot;&gt;reading an article&lt;/a&gt; about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.&lt;/p&gt;
+As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today's headlines, and I get: - [This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.](https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew) - [How A.I.-powered companies dodged the worst damage from COVID](https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/) - [AI technology detects ‘ticking time bomb’ arteries](https://www.mobihealthnews.com/news/emea/ai-technology-detects-ticking-time-bomb-arteries) - [AI in Drug Discovery Starts to Live Up to the Hype](https://www.genengnews.com/insights/ai-in-drug-discovery-starts-to-live-up-to-the-hype/) - [Pentagon seeks commercial solutions to get its data ready for AI](https://www.c4isrnet.com/artificial-intelligence/2021/04/02/pentagon-seeks-commercial-solutions-to-get-its-data-ready-for-ai/)</summary></entry><entry><title type="html">Who owns the copyright for an AI generated creative work?</title><link href="https://btjklee.github.io/AI-and-intellectual-property.html" rel="alternate" type="text/html" title="Who owns the copyright for an AI generated creative work?" /><published>2021-04-20T00:00:00-04:00</published><updated>2021-04-20T00:00:00-04:00</updated><id>https://btjklee.github.io/AI-and-intellectual-property</id><content type="html" xml:base="https://btjklee.github.io/AI-and-intellectual-property.html">&lt;p&gt;Recently I was &lt;a href=&quot;https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/&quot;&gt;reading an article&lt;/a&gt; about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/tjzOzuKQhSM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -236,7 +313,7 @@ As said before, I will continue to write about the basics of neural networks, th
 &lt;tweet&gt;Perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living.&lt;/tweet&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210420/post8-rembrandt2.jpg&quot; alt=&quot;The next Rembrandt&quot; /&gt;
-&lt;small&gt;&lt;a href=&quot;https://www.jwt.com/en/work/thenextrembrandt&quot;&gt;The Next Rembrandt&lt;/a&gt; is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.&lt;/small&gt;&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">Recently I was reading an article about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.</summary></entry><entry><title type="html">So, what is a programming?</title><link href="https://the-mvm.github.io/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-04-02T00:00:00-04:00</published><updated>2021-04-02T00:00:00-04:00</updated><id>https://the-mvm.github.io/back-to-basics</id><content type="html" xml:base="https://the-mvm.github.io/back-to-basics.html">&lt;p&gt;The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:&lt;/p&gt;
+&lt;small&gt;&lt;a href=&quot;https://www.jwt.com/en/work/thenextrembrandt&quot;&gt;The Next Rembrandt&lt;/a&gt; is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.&lt;/small&gt;&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="opinion" /><category term="copyright" /><category term="creativity" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">Recently I was reading an article about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.</summary></entry><entry><title type="html">So, what is a programming?</title><link href="https://btjklee.github.io/back-to-basics.html" rel="alternate" type="text/html" title="So, what is a programming?" /><published>2021-04-02T00:00:00-04:00</published><updated>2021-04-02T00:00:00-04:00</updated><id>https://btjklee.github.io/back-to-basics</id><content type="html" xml:base="https://btjklee.github.io/back-to-basics.html">&lt;p&gt;The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.morningbrew.com/emerging-tech/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres?utm_source=morning_brew&quot;&gt;This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://fortune.com/2021/04/02/ai-forecasting-supply-chain-factories-caterpillar-agco/&quot;&gt;How A.I.-powered companies dodged the worst damage from COVID&lt;/a&gt;&lt;/li&gt;
@@ -341,7 +418,7 @@ As said before, I will continue to write about the basics of neural networks, th
 
 &lt;p&gt;Of course Amazon’s Alexa neural networks have undergone quite a lot of training to get to the level where they are, the beauty is that once trained, to perform their magic they just need a few mathematical operations.&lt;/p&gt;
 
-&lt;p&gt;As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get: This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech. How A.I.-powered companies dodged the worst damage from COVID AI technology detects ‘ticking time bomb’ arteries AI in Drug Discovery Starts to Live Up to the Hype Pentagon seeks commercial solutions to get its data ready for AI</summary></entry><entry><title type="html">Starting the adventure</title><link href="https://the-mvm.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="Starting the adventure" /><published>2021-03-24T00:00:00-04:00</published><updated>2021-03-24T00:00:00-04:00</updated><id>https://the-mvm.github.io/starting-the-adventure</id><content type="html" xml:base="https://the-mvm.github.io/starting-the-adventure.html">&lt;p&gt;In the midst of a global pandemic caused by the SARS-COV2 coronavirus; I decided to start blogging. I wanted to blog since a long time, I have always enjoyed writing, but many unknowns and having “no time” for it prevented me from taking it up. Things like: “I don’t really know who my target audience is”, “what would my topic or topics be?”, “I don’t think I am a world-class expert in anything”, and many more kept stopping me from setting up my own blog. Now seemed like a good time as any so with those and tons of other questions in my mind I decided it was time to start.&lt;/p&gt;
+&lt;p&gt;As said before, I will continue to write about the basics of neural networks, the next article in the series will dive a bit deeper into the math behind a basic neural network.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="theory" /><category term="neural networks" /><category term="machine learning" /><category term="artificial intelligence" /><summary type="html">The omnipresence of technology nowadays has made it commonplace to read news about AI, just a quick glance at today’s headlines, and I get: This Powerful AI Technique Led to Clashes at Google and Fierce Debate in Tech. How A.I.-powered companies dodged the worst damage from COVID AI technology detects ‘ticking time bomb’ arteries AI in Drug Discovery Starts to Live Up to the Hype Pentagon seeks commercial solutions to get its data ready for AI</summary></entry><entry><title type="html">Starting the adventure</title><link href="https://btjklee.github.io/starting-the-adventure.html" rel="alternate" type="text/html" title="Starting the adventure" /><published>2021-03-24T00:00:00-04:00</published><updated>2021-03-24T00:00:00-04:00</updated><id>https://btjklee.github.io/starting-the-adventure</id><content type="html" xml:base="https://btjklee.github.io/starting-the-adventure.html">&lt;p&gt;In the midst of a global pandemic caused by the SARS-COV2 coronavirus; I decided to start blogging. I wanted to blog since a long time, I have always enjoyed writing, but many unknowns and having “no time” for it prevented me from taking it up. Things like: “I don’t really know who my target audience is”, “what would my topic or topics be?”, “I don’t think I am a world-class expert in anything”, and many more kept stopping me from setting up my own blog. Now seemed like a good time as any so with those and tons of other questions in my mind I decided it was time to start.&lt;/p&gt;
 
 &lt;p&gt;Funnily, this is not my first post. The birth of the blog came very natural as a way to “document” my newly established pursuit for getting myself into Machine Learning. This new adventure of mine comprises several things, and if I want to succeed I need to be serious about them all:&lt;/p&gt;
 &lt;ul&gt;
@@ -482,7 +559,7 @@ As said before, I will continue to write about the basics of neural networks, th
 
 &lt;p&gt;But this fix did not work for the search function, because it relies on a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;search.json&lt;/code&gt; file (also generated programmatically to be served as a static file), therefore when generating this file one either use the relative path for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root&lt;/code&gt; directory or for a nested directory, thus the search results will only link correctly the corresponding pages if the page where the user searched for something is in the corresponding scope.&lt;/p&gt;
 
-&lt;p&gt;So the final solution was to make the whole site flat, meaning to live in a single directory. All pages and posts will live under the root directory, and by doing so, I can control how to address the relative paths for resources.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">In the midst of a global pandemic caused by the SARS-COV2 coronavirus; I decided to start blogging. I wanted to blog since a long time, I have always enjoyed writing, but many unknowns and having “no time” for it prevented me from taking it up. Things like: “I don’t really know who my target audience is”, “what would my topic or topics be?”, “I don’t think I am a world-class expert in anything”, and many more kept stopping me from setting up my own blog. Now seemed like a good time as any so with those and tons of other questions in my mind I decided it was time to start.</summary></entry><entry><title type="html">Deep Q Learning for Tic Tac Toe</title><link href="https://the-mvm.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="Deep Q Learning for Tic Tac Toe" /><published>2021-03-18T17:14:20-04:00</published><updated>2021-03-18T17:14:20-04:00</updated><id>https://the-mvm.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://the-mvm.github.io/deep-q-learning-tic-tac-toe.html">&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/Game_Screen.png&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;So the final solution was to make the whole site flat, meaning to live in a single directory. All pages and posts will live under the root directory, and by doing so, I can control how to address the relative paths for resources.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="general blogging" /><category term="thoughts" /><category term="life" /><summary type="html">In the midst of a global pandemic caused by the SARS-COV2 coronavirus; I decided to start blogging. I wanted to blog since a long time, I have always enjoyed writing, but many unknowns and having “no time” for it prevented me from taking it up. Things like: “I don’t really know who my target audience is”, “what would my topic or topics be?”, “I don’t think I am a world-class expert in anything”, and many more kept stopping me from setting up my own blog. Now seemed like a good time as any so with those and tons of other questions in my mind I decided it was time to start.</summary></entry><entry><title type="html">Deep Q Learning for Tic Tac Toe</title><link href="https://btjklee.github.io/deep-q-learning-tic-tac-toe.html" rel="alternate" type="text/html" title="Deep Q Learning for Tic Tac Toe" /><published>2021-03-18T17:14:20-04:00</published><updated>2021-03-18T17:14:20-04:00</updated><id>https://btjklee.github.io/deep-q-learning-tic-tac-toe</id><content type="html" xml:base="https://btjklee.github.io/deep-q-learning-tic-tac-toe.html">&lt;center&gt;&lt;img style=&quot;float: left;margin-right: 1em;&quot; src=&quot;./assets/img/posts/20210318/Game_Screen.png&quot; width=&quot;310&quot; height=&quot;300&quot; /&gt;&lt;/center&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 &lt;p&gt;After many years of a corporate career (17) diverging from computer science, I have now decided to learn Machine Learning and in the process return to coding (something I have always loved!).&lt;/p&gt;
@@ -726,7 +803,7 @@ Wins: 52.66% Losses: 36.02% Ties: 11.32%&lt;/small&gt;&lt;/center&gt;
 
 &lt;p&gt;As of today, my best result so far is 87.5%, I will leave it rest for a while and keep investigating to find a reason for not being able to reach at least 90%. I read about &lt;a href=&quot;https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717&quot;&gt;self play&lt;/a&gt;, and it looks like a viable option to test and a fun coding challenge. However, before embarking in yet another big change I want to ensure I have been thorough with the model and have tested every option correctly.&lt;/p&gt;
 
-&lt;p&gt;I feel the end is near… should I continue to update this post as new events unfold or shall I make it a multi post thread?&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="artificial intelligence" /><category term="reinforcement learning" /><category term="coding" /><category term="python" /><summary type="html"></summary></entry><entry><title type="html">Neural Network Optimization Methods and Algorithms</title><link href="https://the-mvm.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="Neural Network Optimization Methods and Algorithms" /><published>2021-03-12T14:32:20-05:00</published><updated>2021-03-12T14:32:20-05:00</updated><id>https://the-mvm.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://the-mvm.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
+&lt;p&gt;I feel the end is near… should I continue to update this post as new events unfold or shall I make it a multi post thread?&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="artificial intelligence" /><category term="reinforcement learning" /><category term="coding" /><category term="python" /><summary type="html"></summary></entry><entry><title type="html">Neural Network Optimization Methods and Algorithms</title><link href="https://btjklee.github.io/neural-network-optimization-methods.html" rel="alternate" type="text/html" title="Neural Network Optimization Methods and Algorithms" /><published>2021-03-12T14:32:20-05:00</published><updated>2021-03-12T14:32:20-05:00</updated><id>https://btjklee.github.io/neural-network-optimization-methods</id><content type="html" xml:base="https://btjklee.github.io/neural-network-optimization-methods.html">&lt;p&gt;For the seemingly small project I undertook of &lt;a href=&quot;./deep-q-learning-tic-tac-toe.html&quot;&gt;creating a machine learning neural network that could learn by itself to play tic-tac-toe&lt;/a&gt;, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.&lt;/p&gt;
 
 &lt;p&gt;And since my original post for the TicTacToe project is quite large already, I decided to post separately these optimization methods and how did I implement them in my code.&lt;/p&gt;
 
@@ -1042,7 +1119,7 @@ E[\theta^2]_t &amp;amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\&l
                             &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EPSILON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
 
     &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gradient_zeros&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Armando Maynez</name></author><category term="coding" /><category term="machine learning" /><category term="optimization" /><category term="deep Neural networks" /><summary type="html">For the seemingly small project I undertook of creating a machine learning neural network that could learn by itself to play tic-tac-toe, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.</summary></entry><entry><title type="html">Machine Learning Library in Python from scratch</title><link href="https://the-mvm.github.io/ML-Library-from-scratch.html" rel="alternate" type="text/html" title="Machine Learning Library in Python from scratch" /><published>2021-02-28T13:32:20-05:00</published><updated>2021-02-28T13:32:20-05:00</updated><id>https://the-mvm.github.io/ML-Library-from-scratch</id><content type="html" xml:base="https://the-mvm.github.io/ML-Library-from-scratch.html">&lt;p&gt;It must sound crazy that in this day and age, when we have such a myriad of amazing machine learning libraries and toolkits all open sourced, all quite well documented and easy to use, I decided to create my own ML library from scratch.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Armando Maynez</name></author><category term="coding" /><category term="machine learning" /><category term="optimization" /><category term="deep Neural networks" /><summary type="html">For the seemingly small project I undertook of creating a machine learning neural network that could learn by itself to play tic-tac-toe, I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.</summary></entry><entry><title type="html">Machine Learning Library in Python from scratch</title><link href="https://btjklee.github.io/ML-Library-from-scratch.html" rel="alternate" type="text/html" title="Machine Learning Library in Python from scratch" /><published>2021-02-28T13:32:20-05:00</published><updated>2021-02-28T13:32:20-05:00</updated><id>https://btjklee.github.io/ML-Library-from-scratch</id><content type="html" xml:base="https://btjklee.github.io/ML-Library-from-scratch.html">&lt;p&gt;It must sound crazy that in this day and age, when we have such a myriad of amazing machine learning libraries and toolkits all open sourced, all quite well documented and easy to use, I decided to create my own ML library from scratch.&lt;/p&gt;
 &lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210228/ML_cloud.jpg&quot; width=&quot;480px&quot; /&gt;&lt;/center&gt;
 &lt;p&gt;Let me try to explain; I am in the process of immersing myself into the world of Machine Learning, and to do so, I want to deeply understand the basic concepts and its foundations, and I think that there is no better way to do so than by creating myself all the code for a basic neural network library from scratch. This way I can gain in depth understanding of the math that underpins the ML algorithms.&lt;/p&gt;
 
@@ -8003,7 +8080,7 @@ qXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNTguNDUuMTAw
   &lt;li&gt;save and load trained model to file&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I will get to it soon…&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="coding" /><category term="neural networks" /><category term="python" /><summary type="html">It must sound crazy that in this day and age, when we have such a myriad of amazing machine learning libraries and toolkits all open sourced, all quite well documented and easy to use, I decided to create my own ML library from scratch. Let me try to explain; I am in the process of immersing myself into the world of Machine Learning, and to do so, I want to deeply understand the basic concepts and its foundations, and I think that there is no better way to do so than by creating myself all the code for a basic neural network library from scratch. This way I can gain in depth understanding of the math that underpins the ML algorithms.</summary></entry><entry><title type="html">Conway’s Game of Life</title><link href="https://the-mvm.github.io/conways-game-of-life.html" rel="alternate" type="text/html" title="Conway’s Game of Life" /><published>2021-02-10T14:32:20-05:00</published><updated>2021-02-10T14:32:20-05:00</updated><id>https://the-mvm.github.io/conways-game-of-life</id><content type="html" xml:base="https://the-mvm.github.io/conways-game-of-life.html">&lt;p&gt;I&amp;nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&amp;nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.&lt;/p&gt;
+&lt;p&gt;I will get to it soon…&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="coding" /><category term="neural networks" /><category term="python" /><summary type="html">It must sound crazy that in this day and age, when we have such a myriad of amazing machine learning libraries and toolkits all open sourced, all quite well documented and easy to use, I decided to create my own ML library from scratch. Let me try to explain; I am in the process of immersing myself into the world of Machine Learning, and to do so, I want to deeply understand the basic concepts and its foundations, and I think that there is no better way to do so than by creating myself all the code for a basic neural network library from scratch. This way I can gain in depth understanding of the math that underpins the ML algorithms.</summary></entry><entry><title type="html">Conway’s Game of Life</title><link href="https://btjklee.github.io/conways-game-of-life.html" rel="alternate" type="text/html" title="Conway’s Game of Life" /><published>2021-02-10T14:32:20-05:00</published><updated>2021-02-10T14:32:20-05:00</updated><id>https://btjklee.github.io/conways-game-of-life</id><content type="html" xml:base="https://btjklee.github.io/conways-game-of-life.html">&lt;p&gt;I&amp;nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&amp;nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/img/posts/20210210/300px-TRS-80_Color_Computer_3.jpg&quot; alt=&quot;Tandy Color Computer TRS80 III&quot; /&gt;&lt;small&gt;Tandy Color Computer TRS80 III&lt;/small&gt;&lt;/p&gt;
 
@@ -8070,123 +8147,4 @@ qXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNTguNDUuMTAw
 
 &lt;p&gt;Notice that since I am keeping an array of the coordinates of only the cells who are alive, I could apply just 3 rules, die of loneliness, die of overpopulation and become alive from reproduction (exactly 3 alive neighbors) because the ones who have 2 or 3 neighbors and are already alive, can remain alive in the next iteration.&lt;/p&gt;
 
-&lt;p&gt;I&amp;nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="coding" /><category term="python" /><summary type="html">I&amp;nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&amp;nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</summary></entry><entry><title type="html">Single Neuron Perceptron</title><link href="https://the-mvm.github.io/single-neuron-perceptron.html" rel="alternate" type="text/html" title="Single Neuron Perceptron" /><published>2021-01-25T14:32:20-05:00</published><updated>2021-01-25T14:32:20-05:00</updated><id>https://the-mvm.github.io/single-neuron-perceptron</id><content type="html" xml:base="https://the-mvm.github.io/single-neuron-perceptron.html">&lt;p&gt;As an entry point to learning python and getting into Machine Learning, I decided to code from scratch the Hello World! of the field, a single neuron perceptron.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-perceptron&quot;&gt;What is a perceptron?&lt;/h2&gt;
-
-&lt;p&gt;A perceptron is the basic building block of a neural network, it can be compared to a neuron, And its conception is what detonated the vast field of Artificial Intelligence nowadays.&lt;/p&gt;
-
-&lt;p&gt;Back in the late 1950’s, a young &lt;a href=&quot;https://en.wikipedia.org/wiki/Frank_Rosenblatt&quot;&gt;Frank Rosenblatt&lt;/a&gt; devised a very simple algorithm as a foundation to construct a machine that could learn to perform different tasks.&lt;/p&gt;
-
-&lt;p&gt;In its essence, a perceptron is nothing more than a collection of values and rules for passing information through them, but in its simplicity lies its power.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210125/Perceptron.png&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;Imagine you have a ‘neuron’ and to ‘activate’ it, you pass through several input signals, each signal connects to the neuron through a synapse, once the signal is aggregated in the perceptron, it is then passed on to one or as many outputs as defined. A perceptron is but a neuron and its collection of synapses to get a signal into it and to modify a signal to pass on.&lt;/p&gt;
-
-&lt;p&gt;In more mathematical terms, a perceptron is an array of values (let’s call them weights), and the rules to apply such values to an input signal.&lt;/p&gt;
-
-&lt;p&gt;For instance a perceptron could get 3 different inputs as in the image, lets pretend that the inputs it receives as signal are: $x_1 = 1, \; x_2 = 2\; and \; x_3 = 3$, if it’s weights are $w_1 = 0.5,\; w_2 = 1\; and \; w_3 = -1$ respectively, then what the perceptron will do when the signal is received is to multiply each input value by its corresponding weight, then add them up.&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center&quot;&gt;\(&lt;br /&gt;
-\begin{align}
-\begin{split}
-\left(x_1 * w_1\right) + \left(x_2 * w_2\right) + \left(x_3 * w_3\right)
-\end{split}
-\end{align}
-\)&lt;/p&gt;
-
-&lt;p style=&quot;text-align:center&quot;&gt;\(&lt;br /&gt;
-\begin{align}&lt;br /&gt;
-\begin{split}&lt;br /&gt;
-\left(0.5 * 1\right) + \left(1 * 2\right) + \left(-1 * 3\right) = 0.5 + 2 - 3 = -0.5
-\end{split}&lt;br /&gt;
-\end{align}&lt;br /&gt;
-\)&lt;/p&gt;
-
-&lt;p&gt;Typically when this value is obtained, we need to apply an “activation” function to smooth the output, but let’s say that our activation function is linear, meaning that we keep the value as it is, then that’s it, that is the output of the perceptron, -0.5.&lt;/p&gt;
-
-&lt;p&gt;In a practical application, the output means something, perhaps we want our perceptron to classify a set of data and if the perceptron outputs a negative number, then we know the data is of type A, and if it is a positive number then it is of type B.&lt;/p&gt;
-
-&lt;p&gt;Once we understand this, the magic starts to happen through a process called backpropagation, where we “educate” our tiny one neuron brain to have it learn how to do its job.&lt;/p&gt;
-
-&lt;tweet&gt;The magic starts to happen through a process called backpropagation, where we &quot;educate&quot; our tiny one neuron brain to have it learn how to do its job.&lt;/tweet&gt;
-
-&lt;p&gt;For this we need a set of data that it is already classified, we call this a training set. This data has inputs and their corresponding correct output. So we can tell the little brain when it misses in its prediction, and by doing so, we also adjust the weights a bit in the direction where we know the perceptron committed the mistake hoping that after many iterations like this the weights will be so that most of the predictions will be correct.&lt;/p&gt;
-
-&lt;p&gt;After the model trains successfully we can have it classify data it has never seen before, and we have a fairly high confidence that it will do so correctly.&lt;/p&gt;
-
-&lt;p&gt;The math behind this magical property of the perceptron is called gradient descent, and is just a bit of differential calculus that helps us convert the error the brain is having into tiny nudges of value of the weights towards their optimum. &lt;a href=&quot;https://www.youtube.com/watch?v=aircAruvnKk&amp;amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&quot;&gt;This video series by 3 blue 1 brown explains it wonderfuly.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;My program creates a single neuron neural network tuned to guess if a point is above or below a randomly generated line and generates a visualization based on graphs to see how the neural network is learning through time.&lt;/p&gt;
-
-&lt;p&gt;The neuron has 3 inputs and weights to calculate its output:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;input 1 is the X coordinate of the point,
-Input 2 is the y coordinate of the point,
-Input 3 is the bias and it is always 1
-
-Input 3 or the bias is required for lines that do not cross the origin (0,0)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The Perceptron starts with weights all set to zero and learns by using 1,000 random points per each iteration.&lt;/p&gt;
-
-&lt;p&gt;The output of the perceptron is calculated with the following activation function:
-    if x * weight_x + y weight_y + weight_bias is positive then 1 else 0&lt;/p&gt;
-
-&lt;p&gt;The error for each point is calculated as the expected outcome of the perceptron minus the real outcome therefore there are only 3 possible error values:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Expected&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Calculated&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Error&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;With every point that is learned if the error is not 0 the weights are adjusted according to:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;New_weight = Old_weight + error * input * learning_rate
-for example: New_weight_x = Old_weight_x + error * x * learning rate
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A very useful parameter in all of neural networks is teh learning rate, which is basically a measure on how tiny our nudge to the weights is going to be.&lt;/p&gt;
-
-&lt;p&gt;In this particular case, I coded the learning_rate to decrease with every iteration as follows:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;learning_rate = 0.01 / (iteration + 1)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;this is important to ensure that once the weights are nearing the optimal values the adjustment in each iteration is subsequently more subtle.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;./assets/img/posts/20210125/Learning_1000_points_per_iteration.jpg&quot; /&gt;&lt;/center&gt;
-
-&lt;p&gt;In the end, the perceptron always converges into a solution and finds with great precision the line we are looking for.&lt;/p&gt;
-
-&lt;p&gt;Perceptrons are quite a revelation in that they can resolve equations by learning, however they are very limited. By their nature they can only resolve linear equations, so their problem space is quite narrow.&lt;/p&gt;
-
-&lt;p&gt;Nowadays the neural networks consist of combinations of many perceptrons, in many layers, and other types of “neurons”, like convolution, recurrent, etc. increasing significantly the types of problems they solve.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="machine learning" /><category term="coding" /><category term="neural networks" /><summary type="html">As an entry point to learning python and getting into Machine Learning, I decided to code from scratch the Hello World! of the field, a single neuron perceptron.</summary></entry></feed>
+&lt;p&gt;I&amp;nbsp;found it very interesting to implement the Game of Life like this, it was quite a refreshing challenge and I am beginning to feel my coding skills ramping up again.&lt;/p&gt;</content><author><name>Armando Maynez</name></author><category term="coding" /><category term="python" /><summary type="html">I&amp;nbsp;am lately trying to take on coding again. It had always been a part of my life since my early years when I&amp;nbsp;learned to program a Tandy Color Computer at the age of 8, the good old days.</summary></entry></feed>

@@ -3,7 +3,20 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/back-to-basics.txt</loc>
+      <loc>https://btjklee.github.io/Github-commands-study.html</loc>
+      
+        <lastmod>2021-07-09T13:24:00-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority></url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/back-to-basics.txt</loc>
       
         <lastmod>2021-07-07T00:00:00-04:00</lastmod>
       
@@ -16,7 +29,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/back-to-basics.html</loc>
+      <loc>https://btjklee.github.io/back-to-basics.html</loc>
       
         <lastmod>2021-07-07T00:00:00-04:00</lastmod>
       
@@ -29,7 +42,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/AI-and-intellectual-property.html</loc>
+      <loc>https://btjklee.github.io/AI-and-intellectual-property.html</loc>
       
         <lastmod>2021-04-20T00:00:00-04:00</lastmod>
       
@@ -42,7 +55,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/back-to-basics.html</loc>
+      <loc>https://btjklee.github.io/back-to-basics.html</loc>
       
         <lastmod>2021-04-02T00:00:00-04:00</lastmod>
       
@@ -55,7 +68,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/starting-the-adventure.html</loc>
+      <loc>https://btjklee.github.io/starting-the-adventure.html</loc>
       
         <lastmod>2021-03-24T00:00:00-04:00</lastmod>
       
@@ -68,7 +81,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/deep-q-learning-tic-tac-toe.html</loc>
+      <loc>https://btjklee.github.io/deep-q-learning-tic-tac-toe.html</loc>
       
         <lastmod>2021-03-18T17:14:20-04:00</lastmod>
       
@@ -81,7 +94,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/neural-network-optimization-methods.html</loc>
+      <loc>https://btjklee.github.io/neural-network-optimization-methods.html</loc>
       
         <lastmod>2021-03-12T14:32:20-05:00</lastmod>
       
@@ -94,7 +107,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/ML-Library-from-scratch.html</loc>
+      <loc>https://btjklee.github.io/ML-Library-from-scratch.html</loc>
       
         <lastmod>2021-02-28T13:32:20-05:00</lastmod>
       
@@ -107,7 +120,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/conways-game-of-life.html</loc>
+      <loc>https://btjklee.github.io/conways-game-of-life.html</loc>
       
         <lastmod>2021-02-10T14:32:20-05:00</lastmod>
       
@@ -120,7 +133,7 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/single-neuron-perceptron.html</loc>
+      <loc>https://btjklee.github.io/single-neuron-perceptron.html</loc>
       
         <lastmod>2021-01-25T14:32:20-05:00</lastmod>
       
@@ -134,24 +147,9 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/404.html</loc>
+      <loc>https://btjklee.github.io/404.html</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/about.html</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -164,24 +162,9 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/all-posts.json</loc>
+      <loc>https://btjklee.github.io/about.html</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/archive.html</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -194,24 +177,9 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/</loc>
+      <loc>https://btjklee.github.io/all-posts.json</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/ipfs-404.html</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -224,41 +192,9 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/posts-by-tag.json</loc>
+      <loc>https://btjklee.github.io/archive.html</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/search.json</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/tag.html</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -271,24 +207,9 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/tags.html</loc>
+      <loc>https://btjklee.github.io/</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://the-mvm.github.io/feed.xml</loc>
-      
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -301,9 +222,101 @@
   
     
     <url>
-      <loc>https://the-mvm.github.io/page2/</loc>
+      <loc>https://btjklee.github.io/ipfs-404.html</loc>
       
-        <lastmod>2021-07-07T15:54:53-04:00</lastmod>
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/posts-by-tag.json</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/search.json</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/tag.html</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/tags.html</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/feed.xml</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://btjklee.github.io/page2/</loc>
+      
+        <lastmod>2021-07-09T18:07:09-04:00</lastmod>
       
       
         <changefreq>daily</changefreq>
